@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+}
+/*First section*/
+.container {
+    width: 100vw;
+    height: 75vh;
+    background-color: rgb(227, 239, 250);
+    display: flex;
+    flex-direction: column;
+}
+.cloud {
+    width: 120px;
+}
+#cloud1 {
+    align-self: flex-end;
+    position: relative;
+    right: 250px;
+    top: 50px;
+}
+#cloud2 {
+    position: relative;
+    left: 250px;
+}
+.container h1 {
+    align-self: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    color: rgb(124, 204, 193);
+    position: relative;
+    bottom: 15px;
+}
+.container h3 {
+    color: rgb(124, 204, 193);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-size: 200%;
+}
+#mount {
+    width: 450px;
+    align-self: center;
+    position: relative;
+    bottom: 130px;
+}
+
+/* second section */
+.second {
+    width: 100vw;
+    height: 85vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.second img {
+    width: 200px;
+    padding-top: 100px;
+}
+.second h3 {
+    color: rgb(124, 204, 193);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    }
+.second hr {
+    border: none;
+    border-bottom: 3px dotted black;
+    width: 70px;
+    height: 80px;
+}
+
+/* skills section */
+.skills {
+    width: 100vw;
+    height:720px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills h3 {
+    color: rgb(124, 204, 193);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+.skills hr {
+    border: none;
+    border-bottom: 8px solid black;
+    width: 50%;
+    height: 50px;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.first img {
+    width: 180px;
+    position: relative;
+    left: 380px;
+}
+.first div {
+    position: relative;
+    right: 380px;
+    bottom: 10px;
+}
+.pos {
+    display: flex;
+    flex-direction: column;
+}
+.pos h2 {
+    color: rgb(14, 95, 84);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+.two img {
+    width: 180px;
+    position: relative;
+    right: 380px;
+}
+.two div {
+    position: relative;
+    left: 380px;
+}
+#end {
+    border: none;
+    border-bottom: 3px dotted black;
+    width: 70px;
+    height: 40px;
+}
+
+/* third section */
+.gallery {
+    width: 100vw;
+    height: 160vh;
+    background-color:rgb(241, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery h1 {
+    font-size: 3em;
+    color: rgb(36, 117, 63);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 70px;
+}
+.gallery hr {
+    border: none;
+    border-bottom: 5px solid rgb(76, 192, 207);
+    width: 380px;
+    position: relative;
+    bottom: 33px;
+}
+.gallery div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photos img {
+    width: 400px;
+    margin: 10px;
+}
+.photos img:hover {
+    transform: scale(1.15);
+}
+
+/* fourth section */
+.fourth {
+    width: 100vw;
+    height: 60vh;
+    background-color: whitesmoke;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth hr {
+    border: none;
+    border-bottom: 3px dotted black;
+    width: 70px;
+    height: 60px;
+}
+.button {
+    background-color: #5d99a1;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+}
+.button:hover {
+    background-color: rgb(61, 117, 61);
+}
+.fourth h1 {
+    color: rgb(124, 204, 193);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.fourth h4 {
+    color: rgb(14, 95, 84);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+.footer {
+    width: 100vw;
+    height: 35vh;
+    background-color: #5d99a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+ #links a {
+    text-decoration: none;
+    color: rgb(14, 95, 84);
+    padding: 20px 40px;
+}
+.footer p {
+    color: white;
+}
